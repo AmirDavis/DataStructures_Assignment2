@@ -24,7 +24,7 @@ public class myTest
       do{
          DisplayMainMenu();
          optionNumber = optionNumberScanner.nextInt();
-         Scanner nodeAdder = new Scanner(System.in); //Read numbers to add to the linked list
+         Scanner nodeAdder = new Scanner(System.in); //Reads numbers to add to the linked list
          Scanner indexScanner = new Scanner(System.in);
          switch (optionNumber){
             case 1:
